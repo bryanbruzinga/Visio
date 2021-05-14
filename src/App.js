@@ -1,4 +1,4 @@
-import "./app.css";
+import "./App.css";
 import PersonList from "./components/person-list";
 
 function App() {
