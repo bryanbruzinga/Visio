@@ -27,7 +27,12 @@ const PersonItem = () => {
       {dados.map((info, index) => {
         return (
           <li key={index} className={styles.item}>
-            <span>Nome: {info.name}</span>
+            <div>
+              <span>Nome: {info.name}</span>
+              <span>Email: {info.email}</span>
+              <span>Fone: {info.phone}</span>
+              <span>Web: {info.website}</span>
+            </div>
             <button type="button" onClick={() => deleteUser(index)}>
               Excluir
             </button>
