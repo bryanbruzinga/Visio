@@ -1,6 +1,6 @@
 import React from "react";
-import { AppContext } from "../context/AppContext";
-import styles from "./personItem.module.css";
+import { AppContext } from "../../context/AppContext";
+import styles from "./styles.module.css";
 
 const PersonItem = () => {
   const { dados, setDados } = React.useContext(AppContext);

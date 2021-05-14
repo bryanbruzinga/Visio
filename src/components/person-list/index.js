@@ -1,6 +1,6 @@
 import React from "react";
-import PersonItem from "./person-item";
-import styles from "./personList.module.css";
+import PersonItem from "../person-item";
+import styles from "./styles.module.css";
 
 const PersonList = () => {
   return (
